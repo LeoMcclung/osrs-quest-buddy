@@ -1,0 +1,10 @@
+apt_keys:
+  - https://pkg.jenkins.io/debian-stable/jenkins.io.key
+
+apt_repositories:
+  - deb https://pkg.jenkins.io/debian-stable binary/
+  - ppa:webupd8team/java
+
+apt_packages:
+  - oracle-java7-installer
+  - jenkins

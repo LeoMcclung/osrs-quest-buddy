@@ -1,0 +1,4 @@
+---
+  - name: install webserver package(s)
+    apt: name="{{ item }}" state=latest
+    with_items: "{{ apt_packages }}"
