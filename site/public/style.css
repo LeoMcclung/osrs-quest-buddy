@@ -1,14 +1,14 @@
-body {
-  background: black;
-  color: white; }
+html, body {
+  background: white;
+  color: black; 
+  width: 100%;
+  height: 100%;
+}
 
-#mydiv {
-  background: green; }
-
-#myp {
-  background: blue; }
-
-.cool {
-  border: 5px solid red; }
-
-/*# sourceMappingURL=style.css.map */
+#container {
+	width: 500px;
+	height: 100%;
+	background: yellow;
+	margin: 0 auto;
+	border: 1px solid #234a68
+}
